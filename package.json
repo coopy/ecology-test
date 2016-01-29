@@ -4,7 +4,8 @@
   "description": "",
   "main": "argv.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --port 3003 --config docs/webpack.config.js --watch --content-base docs"
   },
   "keywords": [],
   "author": "Per Nilsson <per@sproutlab.com>",
